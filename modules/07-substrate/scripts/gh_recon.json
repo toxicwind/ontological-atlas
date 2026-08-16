@@ -1,0 +1,70 @@
+{
+ "user": "toxicwind",
+ "total": 229,
+ "recent_7d": [
+  {
+   "name": "ontological-atlas",
+   "private": false,
+   "pushed_at": "2026-08-16T19:54:24Z",
+   "html_url": "https://github.com/toxicwind/ontological-atlas",
+   "description": "A modular research framework mapping the co-constitutive nature of reality"
+  },
+  {
+   "name": "mcpproxy-go",
+   "private": false,
+   "pushed_at": "2026-08-15T19:20:53Z",
+   "html_url": "https://github.com/toxicwind/mcpproxy-go",
+   "description": "Supercharge AI Agents, Safely"
+  },
+  {
+   "name": "pi-upstream",
+   "private": false,
+   "pushed_at": "2026-08-15T19:19:58Z",
+   "html_url": "https://github.com/toxicwind/pi-upstream",
+   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI"
+  },
+  {
+   "name": "oh-my-pi",
+   "private": false,
+   "pushed_at": "2026-08-15T19:19:50Z",
+   "html_url": "https://github.com/toxicwind/oh-my-pi",
+   "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more"
+  },
+  {
+   "name": "modelbeats",
+   "private": false,
+   "pushed_at": "2026-08-15T19:19:25Z",
+   "html_url": "https://github.com/toxicwind/modelbeats",
+   "description": "LLM Rankings and Evals Hub"
+  },
+  {
+   "name": "tinker-cookbook",
+   "private": false,
+   "pushed_at": "2026-08-15T06:23:49Z",
+   "html_url": "https://github.com/toxicwind/tinker-cookbook",
+   "description": "Post-training with Tinker"
+  },
+  {
+   "name": "llama-swap",
+   "private": false,
+   "pushed_at": "2026-08-14T17:43:10Z",
+   "html_url": "https://github.com/toxicwind/llama-swap",
+   "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+  },
+  {
+   "name": "walk-in-archive",
+   "private": false,
+   "pushed_at": "2026-08-13T18:25:05Z",
+   "html_url": "https://github.com/toxicwind/walk-in-archive",
+   "description": "The definitive OSINT archive of Frederick von Mierers, Eternal Values, and the 1980s model cult HBO didn't tell you about"
+  },
+  {
+   "name": "paintball-field",
+   "private": false,
+   "pushed_at": "2026-08-12T00:06:37Z",
+   "html_url": "https://github.com/toxicwind/paintball-field",
+   "description": null
+  }
+ ],
+ "timestamp": 1786910591.8677993
+}
