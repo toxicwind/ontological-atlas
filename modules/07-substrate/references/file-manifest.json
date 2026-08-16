@@ -1,0 +1,348 @@
+{
+ "summary": {
+  "files": 48,
+  "bytes": 105117,
+  "chars": 104777,
+  "lines": 2525,
+  "hook_loaded": false,
+  "timestamp": 1786913773.2191925
+ },
+ "files": [
+  {
+   "path": ".gitignore",
+   "bytes": 282,
+   "chars": 282,
+   "lines": 37,
+   "sha256": "50da52577bd6b942"
+  },
+  {
+   "path": "README.md",
+   "bytes": 2720,
+   "chars": 2714,
+   "lines": 35,
+   "sha256": "f17bf285f83b9e51"
+  },
+  {
+   "path": "modules/01-rendering-engine/README.md",
+   "bytes": 345,
+   "chars": 339,
+   "lines": 9,
+   "sha256": "1a31e1793410b669"
+  },
+  {
+   "path": "modules/01-rendering-engine/co-constitutive-field.md",
+   "bytes": 1675,
+   "chars": 1667,
+   "lines": 42,
+   "sha256": "f61bb7f92e68f285"
+  },
+  {
+   "path": "modules/01-rendering-engine/strange-attractor.md",
+   "bytes": 2231,
+   "chars": 2231,
+   "lines": 40,
+   "sha256": "daa289d19d1c644b"
+  },
+  {
+   "path": "modules/01-rendering-engine/subject-object-split.md",
+   "bytes": 2046,
+   "chars": 2038,
+   "lines": 39,
+   "sha256": "efc00c5a55d99f16"
+  },
+  {
+   "path": "modules/02-folklore-interface/README.md",
+   "bytes": 442,
+   "chars": 436,
+   "lines": 9,
+   "sha256": "3cfe52ad12d2a2dc"
+  },
+  {
+   "path": "modules/02-folklore-interface/cooking-threshold.md",
+   "bytes": 1879,
+   "chars": 1877,
+   "lines": 45,
+   "sha256": "544b1dc5a57df87a"
+  },
+  {
+   "path": "modules/02-folklore-interface/ebu-gogo-decompression.md",
+   "bytes": 3288,
+   "chars": 3278,
+   "lines": 71,
+   "sha256": "4f7dc6398cc20097"
+  },
+  {
+   "path": "modules/02-folklore-interface/global-little-people-gradient.md",
+   "bytes": 2304,
+   "chars": 2294,
+   "lines": 40,
+   "sha256": "cb5c702849134084"
+  },
+  {
+   "path": "modules/03-consciousness-technologies/README.md",
+   "bytes": 418,
+   "chars": 412,
+   "lines": 9,
+   "sha256": "a3fd20c38b5ecb22"
+  },
+  {
+   "path": "modules/03-consciousness-technologies/dmt-entity-research.md",
+   "bytes": 1696,
+   "chars": 1694,
+   "lines": 45,
+   "sha256": "e1a58c592025db8b"
+  },
+  {
+   "path": "modules/03-consciousness-technologies/somatic-bypass-music.md",
+   "bytes": 3179,
+   "chars": 3165,
+   "lines": 64,
+   "sha256": "5cf6ccdf3001b4fd"
+  },
+  {
+   "path": "modules/03-consciousness-technologies/uap-control-system.md",
+   "bytes": 2508,
+   "chars": 2500,
+   "lines": 61,
+   "sha256": "e984b7ecd46c8d13"
+  },
+  {
+   "path": "modules/04-ai-alignment-ontology/README.md",
+   "bytes": 403,
+   "chars": 397,
+   "lines": 9,
+   "sha256": "2283477937d8d8c1"
+  },
+  {
+   "path": "modules/04-ai-alignment-ontology/constitutional-immune-response.md",
+   "bytes": 3285,
+   "chars": 3275,
+   "lines": 63,
+   "sha256": "45ed2d695cfedce6"
+  },
+  {
+   "path": "modules/04-ai-alignment-ontology/fable-5-analysis.md",
+   "bytes": 3816,
+   "chars": 3800,
+   "lines": 90,
+   "sha256": "20f52942a2ff9d27"
+  },
+  {
+   "path": "modules/04-ai-alignment-ontology/j-space-nla.md",
+   "bytes": 3397,
+   "chars": 3371,
+   "lines": 69,
+   "sha256": "bcf021ea79fb16a9"
+  },
+  {
+   "path": "modules/04-ai-alignment-ontology/throttling-as-control-system.md",
+   "bytes": 3554,
+   "chars": 3552,
+   "lines": 69,
+   "sha256": "eaf5b2ef9c76a6fe"
+  },
+  {
+   "path": "modules/05-quantum-biology/README.md",
+   "bytes": 158,
+   "chars": 156,
+   "lines": 7,
+   "sha256": "5b6bc07cc28eb091"
+  },
+  {
+   "path": "modules/05-quantum-biology/orch-or.md",
+   "bytes": 2173,
+   "chars": 2169,
+   "lines": 49,
+   "sha256": "6ac82a505d1d3786"
+  },
+  {
+   "path": "modules/06-source-archive/README.md",
+   "bytes": 1282,
+   "chars": 1282,
+   "lines": 38,
+   "sha256": "6169e57adc7def76"
+  },
+  {
+   "path": "modules/07-substrate/AGENTS.md",
+   "bytes": 6292,
+   "chars": 6244,
+   "lines": 134,
+   "sha256": "7fd1e785ee7316d9"
+  },
+  {
+   "path": "modules/07-substrate/SKILL.md",
+   "bytes": 8062,
+   "chars": 7996,
+   "lines": 139,
+   "sha256": "a5e58a3b7df856e2"
+  },
+  {
+   "path": "modules/07-substrate/references/audio.md",
+   "bytes": 1687,
+   "chars": 1665,
+   "lines": 26,
+   "sha256": "8cad38816cd70478"
+  },
+  {
+   "path": "modules/07-substrate/references/dash-analysis.md",
+   "bytes": 2723,
+   "chars": 2687,
+   "lines": 71,
+   "sha256": "c39c4b4b465a5448"
+  },
+  {
+   "path": "modules/07-substrate/references/kernel-audit.md",
+   "bytes": 3571,
+   "chars": 3569,
+   "lines": 96,
+   "sha256": "bd697ae8e2a3309d"
+  },
+  {
+   "path": "modules/07-substrate/references/magic-inventory.json",
+   "bytes": 1570,
+   "chars": 1570,
+   "lines": 137,
+   "sha256": "46ea1a58ae75e905"
+  },
+  {
+   "path": "modules/07-substrate/references/mirrors.md",
+   "bytes": 1622,
+   "chars": 1612,
+   "lines": 11,
+   "sha256": "993265389a5a49ef"
+  },
+  {
+   "path": "modules/07-substrate/scripts/als.py",
+   "bytes": 1592,
+   "chars": 1592,
+   "lines": 37,
+   "sha256": "5f5071c0f4ef0fda"
+  },
+  {
+   "path": "modules/07-substrate/scripts/ana.py",
+   "bytes": 1314,
+   "chars": 1314,
+   "lines": 35,
+   "sha256": "302898f640219151"
+  },
+  {
+   "path": "modules/07-substrate/scripts/auto_fix_env.sh",
+   "bytes": 775,
+   "chars": 775,
+   "lines": 23,
+   "sha256": "475b1f8bb9d63344"
+  },
+  {
+   "path": "modules/07-substrate/scripts/boot.py",
+   "bytes": 439,
+   "chars": 439,
+   "lines": 10,
+   "sha256": "b640bd3ec2434283"
+  },
+  {
+   "path": "modules/07-substrate/scripts/cdp.py",
+   "bytes": 375,
+   "chars": 375,
+   "lines": 9,
+   "sha256": "961239d19a8f3300"
+  },
+  {
+   "path": "modules/07-substrate/scripts/dotfile_protection.sh",
+   "bytes": 1044,
+   "chars": 1044,
+   "lines": 32,
+   "sha256": "907c3e2be1bf805f"
+  },
+  {
+   "path": "modules/07-substrate/scripts/gh_recon.json",
+   "bytes": 2276,
+   "chars": 2276,
+   "lines": 69,
+   "sha256": "aafa6e3a86b65da0"
+  },
+  {
+   "path": "modules/07-substrate/scripts/gh_recon.py",
+   "bytes": 2286,
+   "chars": 2284,
+   "lines": 68,
+   "sha256": "f0d1c2bd533125d3"
+  },
+  {
+   "path": "modules/07-substrate/scripts/h.py",
+   "bytes": 249,
+   "chars": 249,
+   "lines": 4,
+   "sha256": "88e814dec0452bec"
+  },
+  {
+   "path": "modules/07-substrate/scripts/inst.py",
+   "bytes": 1976,
+   "chars": 1976,
+   "lines": 39,
+   "sha256": "b0b3667ad479e83b"
+  },
+  {
+   "path": "modules/07-substrate/scripts/kr.py",
+   "bytes": 549,
+   "chars": 549,
+   "lines": 16,
+   "sha256": "03d637c0cd6f7263"
+  },
+  {
+   "path": "modules/07-substrate/scripts/loader.py",
+   "bytes": 12923,
+   "chars": 12923,
+   "lines": 315,
+   "sha256": "1aed86165a9761a2"
+  },
+  {
+   "path": "modules/07-substrate/scripts/luf.py",
+   "bytes": 1003,
+   "chars": 1003,
+   "lines": 27,
+   "sha256": "0979f691b7aebae5"
+  },
+  {
+   "path": "modules/07-substrate/scripts/pyfix.py",
+   "bytes": 1932,
+   "chars": 1932,
+   "lines": 73,
+   "sha256": "a7db42aea6e93931"
+  },
+  {
+   "path": "modules/07-substrate/scripts/search.py",
+   "bytes": 3675,
+   "chars": 3675,
+   "lines": 98,
+   "sha256": "282d5b41e1f6a073"
+  },
+  {
+   "path": "modules/07-substrate/scripts/stems.py",
+   "bytes": 1423,
+   "chars": 1423,
+   "lines": 34,
+   "sha256": "82d74a2d10311859"
+  },
+  {
+   "path": "modules/07-substrate/scripts/tool_wrapper.py",
+   "bytes": 1387,
+   "chars": 1387,
+   "lines": 40,
+   "sha256": "62af6375fe293865"
+  },
+  {
+   "path": "tools/README.md",
+   "bytes": 388,
+   "chars": 386,
+   "lines": 17,
+   "sha256": "c941f32bf9bec8d1"
+  },
+  {
+   "path": "tools/osint-scraper.py",
+   "bytes": 903,
+   "chars": 903,
+   "lines": 25,
+   "sha256": "a98fa62f60acffd0"
+  }
+ ]
+}
