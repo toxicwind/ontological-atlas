@@ -1,0 +1,49 @@
+name: Universal Skill CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Universal Test
+        run: python3 tests/universal_test.py
+
+      - name: Run Audit
+        run: python3 scripts/audit.py
+
+      - name: Upload Audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-${{ github.sha }}
+          path: env/last_audit.json
+
+  push-check:
+    runs-on: ubuntu-latest
+    needs: audit
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify No Secrets
+        run: |
+          ! grep -r "github_pat_" . --include="*.py" --include="*.sh" --include="*.md" || exit 1
+          ! grep -r "api_key" . --include="*.py" --include="*.sh" || exit 1
+
+      - name: Check File Count
+        run: |
+          count=$(find . -type f | grep -v '.git' | wc -l)
+          echo "Files: $count"
+          [ $count -gt 20 ] || exit 1
