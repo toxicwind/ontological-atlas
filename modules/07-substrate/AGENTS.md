@@ -73,7 +73,7 @@ Before every file operation. This is not sloppiness. It is **acknowledgment that
 - Working channel: GitHub MCP plugin
 - For toxicwind repos: serialized `create_or_update_file` (parallel calls race branch head → 409)
 - Workflow files (.github/workflows): cannot be pushed via API; stage locally
-- **CRITICAL CAVEAT**: PATs must be handled with extreme care. Terminal truncation, copy-paste errors, and shell history can corrupt or expose tokens. Always verify token length (93 chars for classic PATs) by reading back from file, never echo to stdout. Store in files with restricted permissions, never commit to git. The token `github_pat_11AAOYJYI0...` was nearly truncated during shell execution — this is a known failure mode of interactive terminals and must be guarded against by writing to file and reading back for verification.
+- **CRITICAL CAVEAT**: PATs must be handled with extreme care. Terminal truncation, copy-paste errors, and shell history can corrupt or expose tokens. Always verify token length (93 chars for classic PATs) by reading back from file, never echo to stdout. Store in files with restricted permissions, never commit to git. The token `[redacted]` was nearly truncated during shell execution — this is a known failure mode of interactive terminals and must be guarded against by writing to file and reading back for verification.
 
 ## The Subprocess-Only Discipline
 
